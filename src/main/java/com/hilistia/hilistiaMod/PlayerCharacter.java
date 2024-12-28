@@ -5,7 +5,7 @@ import net.minecraft.entity.Entity;
 
 public class PlayerCharacter {
 
-    private Entity player;
+    private final Entity player;
 
     public PlayerCharacter(Entity player) {
         this.player = player;
