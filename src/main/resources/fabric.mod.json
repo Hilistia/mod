@@ -18,6 +18,9 @@
     ],
     "main": [
       "com.hilistia.hilistiaMod.HilistiaMod"
+    ],
+    "cardinal-components": [
+      "com.hilistia.hilistiaMod.components.HilistiaComponents"
     ]
   },
   "mixins": [
@@ -31,5 +34,10 @@
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
     "minecraft": "${minecraft_version}"
+  },
+  "custom": {
+    "cardinal-components": [
+      "hilistiamod:stain"
+    ]
   }
 }
