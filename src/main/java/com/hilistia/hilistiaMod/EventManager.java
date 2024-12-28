@@ -9,6 +9,8 @@ public class EventManager {
 
     public static void RegisterEvents() {
 
+        HilistiaMod.LOGGER.info("registering events");
+
         // register player death handler
         ServerLivingEntityEvents.AFTER_DEATH.register((entity, source) -> {
             if (entity.isPlayer() && Objects.requireNonNull(source.getAttacker()).isPlayer()) {
