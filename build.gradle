@@ -114,6 +114,9 @@ publishing {
     }
 }
 
+fabricApi {
+    configureDataGeneration()
+}
 test {
     useJUnitPlatform()
 }

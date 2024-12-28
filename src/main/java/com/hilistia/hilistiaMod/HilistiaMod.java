@@ -12,6 +12,8 @@ public class HilistiaMod implements ModInitializer {
     @Override
     public void onInitialize() {
 
-        LOGGER.info("initializing hilistia mod");
+        LOGGER.info("initializing hilistia core mod");
+
+
     }
 }
