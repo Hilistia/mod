@@ -5,6 +5,7 @@ on:
       - production
     types:
       - opened
+      - synchronize
 
 jobs:
   build:
