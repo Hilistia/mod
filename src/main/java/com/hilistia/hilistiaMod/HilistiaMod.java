@@ -6,5 +6,8 @@ public class HilistiaMod implements ModInitializer {
 
     @Override
     public void onInitialize() {
+
+        // register all Hilistia events
+        EventManager.RegisterEvents();
     }
 }
