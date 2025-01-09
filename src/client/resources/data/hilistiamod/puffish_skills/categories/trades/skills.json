@@ -1,10 +1,4 @@
 {
-	"m7g6ejfbm3st7vdb": {
-		"definition": "camp_cooking",
-		"x": -960,
-		"y": -64,
-		"root": false
-	},
 	"363j2voamjtecjlk": {
 		"definition": "armorsmith",
 		"x": -64,
@@ -13,32 +7,26 @@
 	},
 	"3wtdcgj1d1ev31nx": {
 		"definition": "artisan",
-		"x": 128,
+		"x": 320,
 		"y": 0,
 		"root": true
 	},
 	"sqgex3bf3bquak3p": {
 		"definition": "tinker",
-		"x": 64,
+		"x": 128,
 		"y": 0,
 		"root": true
 	},
 	"rufqolut1uvfgxqy": {
 		"definition": "warrior",
-		"x": 192,
+		"x": 384,
 		"y": 0,
 		"root": true
 	},
 	"p7dk8sq2byheicox": {
 		"definition": "scout",
-		"x": 192,
+		"x": 384,
 		"y": -64,
-		"root": false
-	},
-	"crd65lhikz9x91ss": {
-		"definition": "camp_cooking",
-		"x": -224,
-		"y": -32,
 		"root": false
 	},
 	"23bqomesomw11zki": {
@@ -189,6 +177,120 @@
 		"definition": "mantle_gear",
 		"x": -64,
 		"y": -224,
+		"root": false
+	},
+	"qwwifucbx1xjqaup": {
+		"definition": "fluid_works",
+		"x": 128,
+		"y": -64,
+		"root": false
+	},
+	"n7xvmj6dt9l5pu93": {
+		"definition": "gizmos",
+		"x": 224,
+		"y": -128,
+		"root": false
+	},
+	"zvqhhglpnj7izjni": {
+		"definition": "guided_gantry",
+		"x": 160,
+		"y": -64,
+		"root": false
+	},
+	"qbs285srsxbqfqub": {
+		"definition": "improved_rotation",
+		"x": 96,
+		"y": -64,
+		"root": false
+	},
+	"l0fofejo05z2pbes": {
+		"definition": "mechanical_tools",
+		"x": 192,
+		"y": -64,
+		"root": false
+	},
+	"ckuj9uhul1bk0xd2": {
+		"definition": "smart_wiring",
+		"x": 224,
+		"y": -64,
+		"root": false
+	},
+	"sh2zp4olajkh1sml": {
+		"definition": "camp_cooking",
+		"x": -192,
+		"y": -32,
+		"root": false
+	},
+	"yy5dn7ix3p5p957c": {
+		"definition": "improved_power",
+		"x": 64,
+		"y": -64,
+		"root": false
+	},
+	"jns3yuc29bs7slrf": {
+		"definition": "advanced_fluids",
+		"x": 128,
+		"y": -128,
+		"root": false
+	},
+	"pnmd7jhadpc6j63r": {
+		"definition": "advanced_mechanics",
+		"x": 192,
+		"y": -128,
+		"root": false
+	},
+	"1q36692mn04egk4g": {
+		"definition": "advanced_rotation",
+		"x": 96,
+		"y": -128,
+		"root": false
+	},
+	"qfxufiv4a6ukugru": {
+		"definition": "basic_pullies",
+		"x": 160,
+		"y": -128,
+		"root": false
+	},
+	"2pi5i7tv3d210lfk": {
+		"definition": "fluid_pullies",
+		"x": 128,
+		"y": -192,
+		"root": false
+	},
+	"zmgt3y8tauxv7yo3": {
+		"definition": "lift_wizard",
+		"x": 160,
+		"y": -192,
+		"root": false
+	},
+	"0xgextkokkxt1m8w": {
+		"definition": "mechanical_heat",
+		"x": 64,
+		"y": -128,
+		"root": false
+	},
+	"ftbwjx1xran5tjla": {
+		"definition": "power_loading",
+		"x": 256,
+		"y": -64,
+		"root": false
+	},
+	"a13xgeeazipqwpf2": {
+		"definition": "smart_pipes",
+		"x": 96,
+		"y": -192,
+		"root": false
+	},
+	"h1pyb8r6sqlim0dt": {
+		"definition": "steam_power",
+		"x": 64,
+		"y": -192,
+		"root": false
+	},
+	"fdrg8wkxc6j149jk": {
+		"definition": "advanced_power_loading",
+		"x": 256,
+		"y": -192,
 		"root": false
 	}
 }
