@@ -7,43 +7,37 @@
 	},
 	"363j2voamjtecjlk": {
 		"definition": "armorsmith",
-		"x": -64,
-		"y": -32,
+		"x": 0,
+		"y": -64,
 		"root": false
 	},
 	"3wtdcgj1d1ev31nx": {
 		"definition": "artisan",
 		"x": 64,
-		"y": -32,
+		"y": 0,
 		"root": false
 	},
 	"sqgex3bf3bquak3p": {
 		"definition": "tinker",
-		"x": 64,
-		"y": 32,
+		"x": 32,
+		"y": 64,
 		"root": false
 	},
 	"rufqolut1uvfgxqy": {
 		"definition": "warrior",
-		"x": 0,
-		"y": -32,
+		"x": 64,
+		"y": -64,
 		"root": false
 	},
 	"p7dk8sq2byheicox": {
 		"definition": "scout",
-		"x": 0,
+		"x": 96,
 		"y": -96,
 		"root": false
 	},
 	"crd65lhikz9x91ss": {
 		"definition": "camp_cooking",
-		"x": -128,
-		"y": 32,
-		"root": false
-	},
-	"hz75yws3at5jdd4p": {
-		"definition": "starter_kitchen",
-		"x": -128,
+		"x": -32,
 		"y": 64,
 		"root": false
 	},
@@ -51,6 +45,84 @@
 		"definition": "chef",
 		"x": -64,
 		"y": 32,
+		"root": false
+	},
+	"ythfmym4a4wqd4kj": {
+		"definition": "basic_meals",
+		"x": -96,
+		"y": 32,
+		"root": false
+	},
+	"fgo02oqz9wzawmp2": {
+		"definition": "basic_drinks",
+		"x": -64,
+		"y": 64,
+		"root": false
+	},
+	"yvip9stzkakixuob": {
+		"definition": "pastry_chef",
+		"x": -128,
+		"y": 0,
+		"root": false
+	},
+	"hn9ie3ievkzsoph6": {
+		"definition": "dessert_baker",
+		"x": -96,
+		"y": -32,
+		"root": false
+	},
+	"il397kt5oun7mcwr": {
+		"definition": "chocolatier",
+		"x": -128,
+		"y": -32,
+		"root": false
+	},
+	"q7pstsi8bsnprgb8": {
+		"definition": "improved_kitchen",
+		"x": -96,
+		"y": 64,
+		"root": false
+	},
+	"wu50sav7ubtnsdob": {
+		"definition": "improved_dishes",
+		"x": -128,
+		"y": 32,
+		"root": false
+	},
+	"rnp0nh6zgzk23co5": {
+		"definition": "pet_food",
+		"x": -128,
+		"y": 64,
+		"root": false
+	},
+	"pnywuxn5yfqrbrbv": {
+		"definition": "improved_pastries",
+		"x": -160,
+		"y": 0,
+		"root": false
+	},
+	"q9qxp73fi0ea5xhw": {
+		"definition": "marvelous_dishes",
+		"x": -160,
+		"y": 32,
+		"root": false
+	},
+	"xm7kz3ndh0mfxjxv": {
+		"definition": "diamond_knife",
+		"x": -96,
+		"y": 96,
+		"root": false
+	},
+	"3flb9nj9f4tjex2y": {
+		"definition": "wonderous_dishes",
+		"x": -192,
+		"y": 32,
+		"root": false
+	},
+	"lbwychyvt3hp1osg": {
+		"definition": "netherite_knife",
+		"x": -96,
+		"y": 128,
 		"root": false
 	}
 }

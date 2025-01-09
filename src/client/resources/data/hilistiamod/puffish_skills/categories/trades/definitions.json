@@ -38,6 +38,7 @@
   "chef": {
     "title": "Chef",
     "description": "Begin to explore the world of culinary delights",
+    "extra_description": "Unlocks: stove, cooking pot, skillet, cutting board, and flint knife",
     "cost": 1,
     "icon": {
       "type": "item",
@@ -132,9 +133,139 @@
       }
     ]
   },
-  "starter_kitchen": {
-    "title": "Starter Kitchen",
-    "description": "Unlocks: stove, cooking pot, skillet, cutting board, and flint knife",
+  "basic_meals": {
+    "title": "Basic Meals",
+    "description": "Unlocks: bacon and eggs, ratatuille, fruit salad, mixed salad, cooked rice, bone broth",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "carrot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:basicmeals",
+          "lock_command": "advancement revoke @s only hilistiamod:basicmeals"
+        }
+      }
+    ]
+  },
+  "basic_drinks": {
+    "title": "Basic Drinks",
+    "description": "Unlocks: hot cocoa, apple cider, melon juice",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "potion"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+        }
+      }
+    ]
+  },
+  "pastry_chef": {
+    "title": "Pastry Chef",
+    "description": "Unlocks: apple pie, chocolate pie, green apple pie, blueberry pie, apple cream glazed donut",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "bread"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+        }
+      }
+    ]
+  },
+  "dessert_baker": {
+    "title": "Dessert Baker",
+    "description": "Unlocks: sweet berry cheesecake, raw apple cheesecake, apple cheesecake",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "bread"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+        }
+      }
+    ]
+  },
+  "chocolatier": {
+    "title": "Chocolatier",
+    "description": "Unlocks: apple cream filled - chocolate, dark chocolate, white chocolate",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "cocoa_beans"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+        }
+      }
+    ]
+  },
+  "improved_kitchen": {
+    "title": "Improved Kitchen",
+    "description": "Unlocks: iron knife, gold knife",
     "cost": 1,
     "icon": {
       "type": "item",
@@ -152,8 +283,190 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:starterkitchen",
-          "lock_command": "advancement revoke @s only hilistiamod:starterkitchen"
+          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+        }
+      }
+    ]
+  },
+  "improved_dishes": {
+    "title": "Improved Dishes",
+    "description": "Unlocks: beef stew, vegetable soup, fish stew, pasta dishes, mushroom rice, steak and potatoes, grilled salmon",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pumpkin_pie"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+        }
+      }
+    ]
+  },
+  "pet_food": {
+    "title": "Pet Food",
+    "description": "Unlocks: dog food, horse feed",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "rotten_flesh"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+        }
+      }
+    ]
+  },
+  "improved_pastries": {
+    "title": "Improved Pastries",
+    "description": "Unlocks: apple cream glazed chocolate donut, apple cream filled chocolate pastry bar",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "cake"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+        }
+      }
+    ]
+  },
+  "marvelous_dishes": {
+    "title": "Marvelous Dishes",
+    "description": "Unlocks: chicken soup, fried rice, pumpkin soup, baked cod stew, noodle soup, roasted mutton chops, vegetable noodles, pasta with fish & squid ink",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "cooked_chicken"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+        }
+      }
+    ]
+  },
+  "diamond_knife": {
+    "title": "Diamond Knife",
+    "description": "Unlocks: diamond knife",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "diamond_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+        }
+      }
+    ]
+  },
+  "wonderous_dishes": {
+    "title": "Wonderous Dishes",
+    "description": "Unlocks: roast chicken, stuffed pumpkin, honey glazed ham, shepherds pie",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "furnace"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+        }
+      }
+    ]
+  },
+  "netherite_knife": {
+    "title": "Netherite Knife",
+    "description": "Unlocks: netherite knife",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "netherite_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
         }
       }
     ]
