@@ -470,5 +470,291 @@
         }
       }
     ]
+  },
+  "metal_armor": {
+    "title": "Metal Armor",
+    "description": "Unlocks: iron armor",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "iron_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+        }
+      }
+    ]
+  },
+  "gilded_armor": {
+    "title": "Gilded Armor",
+    "description": "Unlocks: gold armor",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "golden_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+        }
+      }
+    ]
+  },
+  "refined_gilded_armor": {
+    "title": "Refined Gilded Armor",
+    "description": "Unlocks: decorative armor trims",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "shaper_armor_trim_smithing_template"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+        }
+      }
+    ]
+  },
+  "ocean_armor": {
+    "title": "Ocean Armor",
+    "description": "Unlocks: nautilus helmet, turtle helmet",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "turtle_helmet"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+        }
+      }
+    ]
+  },
+  "hardened_armor": {
+    "title": "Hardened Armor",
+    "description": "Unlocks: diamond armor",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "diamond_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+        }
+      }
+    ]
+  },
+  "magesmithing": {
+    "title": "Magesmithing",
+    "description": "Unlocks: spectrum armor items",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "enchanted_book"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+        }
+      }
+    ]
+  },
+  "improved_ocean_armor": {
+    "title": "Improved Ocean Armor",
+    "description": "Unlocks: turtle chestplate",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "turtle_helmet"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+        }
+      }
+    ]
+  },
+  "diving_gear": {
+    "title": "Diving Gear",
+    "description": "Unlocks: diving helmet, diving boots, backtank",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "turtle_helmet"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+        }
+      }
+    ]
+  },
+  "lavaproofing": {
+    "title": "Lavaproofing",
+    "description": "Unlocks: netherite armor",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "netherite_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+        }
+      }
+    ]
+  },
+  "lavaproof_diving": {
+    "title": "Lavaproof Diving",
+    "description": "Unlocks: netherite diving gear",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "netherite_helmet"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+        }
+      }
+    ]
+  },
+  "mantle_gear": {
+    "title": "Mantle Gear",
+    "description": "Unlocks: bedrock armor",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "bedrock"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+        }
+      }
+    ]
   }
 }
