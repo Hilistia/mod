@@ -1,0 +1,10 @@
+{
+  "title": "Trades",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "experience_bottle"
+    }
+  },
+  "background": "hilistiamod:textures/gui/skills/backgrounds/brown.png"
+}

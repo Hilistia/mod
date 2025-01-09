@@ -1,0 +1,56 @@
+{
+	"m7g6ejfbm3st7vdb": {
+		"definition": "camp_cooking",
+		"x": -960,
+		"y": -64,
+		"root": false
+	},
+	"363j2voamjtecjlk": {
+		"definition": "armorsmith",
+		"x": -64,
+		"y": -32,
+		"root": false
+	},
+	"3wtdcgj1d1ev31nx": {
+		"definition": "artisan",
+		"x": 64,
+		"y": -32,
+		"root": false
+	},
+	"sqgex3bf3bquak3p": {
+		"definition": "tinker",
+		"x": 64,
+		"y": 32,
+		"root": false
+	},
+	"rufqolut1uvfgxqy": {
+		"definition": "warrior",
+		"x": 0,
+		"y": -32,
+		"root": false
+	},
+	"p7dk8sq2byheicox": {
+		"definition": "scout",
+		"x": 0,
+		"y": -96,
+		"root": false
+	},
+	"crd65lhikz9x91ss": {
+		"definition": "camp_cooking",
+		"x": -128,
+		"y": 32,
+		"root": false
+	},
+	"hz75yws3at5jdd4p": {
+		"definition": "starter_kitchen",
+		"x": -128,
+		"y": 64,
+		"root": false
+	},
+	"23bqomesomw11zki": {
+		"definition": "chef",
+		"x": -64,
+		"y": 32,
+		"root": false
+	}
+}

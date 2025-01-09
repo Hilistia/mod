@@ -1,0 +1,161 @@
+{
+  "armorsmith": {
+    "title": "Armor Smith",
+    "description": "Strengthen your defense through armor",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "leather_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "required_skills": 0
+  },
+  "artisan": {
+    "title": "Artisan",
+    "description": "Decorate the world with your artistry",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "painting"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "required_skills": 0
+  },
+  "chef": {
+    "title": "Chef",
+    "description": "Begin to explore the world of culinary delights",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "bread"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "required_skills": 0
+  },
+  "warrior": {
+    "title": "Warrior",
+    "description": "Fight to protect what you love",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "iron_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "required_skills": 0
+  },
+  "scout": {
+    "title": "Scout",
+    "description": "Be the first to chart the path",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "spyglass"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    }
+  },
+  "tinker": {
+    "title": "Tinker",
+    "description": "Gears and Wheels and Pipes and...",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "redstone_torch"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "required_skills": 0
+  },
+  "camp_cooking": {
+    "title": "Camp Cooking",
+    "description": "Unlock campfires, the simplest of cooking tools",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "campfire"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:campcooking",
+          "lock_command": "advancement revoke @s only hilistiamod:campcooking"
+        }
+      }
+    ]
+  },
+  "starter_kitchen": {
+    "title": "Starter Kitchen",
+    "description": "Unlocks: stove, cooking pot, skillet, cutting board, and flint knife",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "furnace"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:starterkitchen",
+          "lock_command": "advancement revoke @s only hilistiamod:starterkitchen"
+        }
+      }
+    ]
+  }
+}
