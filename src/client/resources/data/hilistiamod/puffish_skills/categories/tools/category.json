@@ -1,9 +1,9 @@
 {
-	"title": "Example",
+	"title": "Tools",
 	"icon": {
 		"type": "item",
 		"data": {
-			"item": "iron_sword"
+			"item": "iron_pickaxe"
 		}
 	},
 	"background": "textures/gui/advancements/backgrounds/stone.png"

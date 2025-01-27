@@ -1,0 +1,38 @@
+{
+	"weapons": {
+		"title": "Weapons",
+		"description": "Wield the blade and bow to strike down your foes",
+		"cost": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_sword"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"required_skills": 0
+	},
+	"tools": {
+		"title": "Tools",
+		"description": "Upgrade your tools ",
+		"cost": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_pickaxe"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"required_skills": 0
+	}
+}
