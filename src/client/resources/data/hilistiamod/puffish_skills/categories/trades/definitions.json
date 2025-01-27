@@ -110,8 +110,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:campcooking",
-          "lock_command": "advancement revoke @s only hilistiamod:campcooking"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_campcooking",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_campcooking"
         }
       }
     ]
@@ -136,8 +136,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicmeals",
-          "lock_command": "advancement revoke @s only hilistiamod:basicmeals"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicmeals",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicmeals"
         }
       }
     ]
@@ -162,8 +162,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -188,8 +188,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -214,8 +214,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -240,8 +240,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -266,8 +266,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -292,8 +292,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -318,8 +318,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -344,8 +344,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -370,8 +370,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -396,8 +396,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -422,8 +422,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -448,8 +448,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -474,8 +474,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -500,8 +500,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -526,8 +526,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -552,8 +552,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -578,8 +578,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -604,8 +604,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -630,8 +630,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -656,8 +656,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -682,8 +682,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -708,8 +708,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -734,8 +734,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -760,8 +760,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -786,8 +786,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -812,8 +812,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -838,8 +838,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -864,8 +864,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -890,8 +890,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -916,8 +916,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -942,8 +942,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -968,8 +968,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -994,8 +994,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -1020,8 +1020,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -1046,8 +1046,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -1072,8 +1072,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -1098,8 +1098,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -1124,8 +1124,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -1150,8 +1150,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -1176,8 +1176,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -1202,8 +1202,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -1228,8 +1228,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -1254,8 +1254,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -1280,8 +1280,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -1306,8 +1306,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -1332,8 +1332,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -1358,8 +1358,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -1384,8 +1384,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -1410,8 +1410,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -1437,8 +1437,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -1463,8 +1463,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -1489,8 +1489,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -1515,8 +1515,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -1541,8 +1541,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -1567,8 +1567,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -1593,8 +1593,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -1619,8 +1619,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -1645,8 +1645,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -1671,8 +1671,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -1697,8 +1697,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -1723,8 +1723,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -1749,8 +1749,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
@@ -1775,8 +1775,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "advancement grant @s only hilistiamod:basicdrinks",
-          "lock_command": "advancement revoke @s only hilistiamod:basicdrinks"
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
         }
       }
     ]
