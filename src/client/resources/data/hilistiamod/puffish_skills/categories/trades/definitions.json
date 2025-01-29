@@ -1,0 +1,1784 @@
+{
+  "armorsmith": {
+    "title": "Armor Smith",
+    "description": "Strengthen your defense through armor",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "leather_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "required_skills": 0
+  },
+  "artisan": {
+    "title": "Artisan",
+    "description": "Decorate the world with your artistry",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "painting"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "required_skills": 0
+  },
+  "chef": {
+    "title": "Chef",
+    "description": "Begin to explore the world of culinary delights",
+    "extra_description": "Unlocks: stove, cooking pot, skillet, cutting board, and flint knife",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "bread"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "required_skills": 0
+  },
+  "toolsmith": {
+    "title": "Toolsmith",
+    "description": "Craft the tools to build your world, and defend it",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "smithing_table"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "required_skills": 0
+  },
+  "tinker": {
+    "title": "Tinker",
+    "description": "Gears and Wheels and Pipes and...",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "redstone_torch"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "required_skills": 0
+  },
+  "camp_cooking": {
+    "title": "Camp Cooking",
+    "description": "Unlock campfires, the simplest of cooking tools",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "campfire"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_campcooking",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_campcooking"
+        }
+      }
+    ]
+  },
+  "basic_meals": {
+    "title": "Basic Meals",
+    "description": "Unlocks: bacon and eggs, ratatuille, fruit salad, mixed salad, cooked rice, bone broth",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "carrot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicmeals",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicmeals"
+        }
+      }
+    ]
+  },
+  "basic_drinks": {
+    "title": "Basic Drinks",
+    "description": "Unlocks: hot cocoa, apple cider, melon juice",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "potion"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "pastry_chef": {
+    "title": "Pastry Chef",
+    "description": "Unlocks: apple pie, chocolate pie, green apple pie, blueberry pie, apple cream glazed donut",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "bread"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "dessert_baker": {
+    "title": "Dessert Baker",
+    "description": "Unlocks: sweet berry cheesecake, raw apple cheesecake, apple cheesecake",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "bread"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "chocolatier": {
+    "title": "Chocolatier",
+    "description": "Unlocks: apple cream filled - chocolate, dark chocolate, white chocolate",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "cocoa_beans"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "improved_kitchen": {
+    "title": "Improved Kitchen",
+    "description": "Unlocks: iron knife, gold knife",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "furnace"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "improved_dishes": {
+    "title": "Improved Dishes",
+    "description": "Unlocks: beef stew, vegetable soup, fish stew, pasta dishes, mushroom rice, steak and potatoes, grilled salmon",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pumpkin_pie"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "pet_food": {
+    "title": "Pet Food",
+    "description": "Unlocks: dog food, horse feed",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "rotten_flesh"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "improved_pastries": {
+    "title": "Improved Pastries",
+    "description": "Unlocks: apple cream glazed chocolate donut, apple cream filled chocolate pastry bar",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "cake"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "marvelous_dishes": {
+    "title": "Marvelous Dishes",
+    "description": "Unlocks: chicken soup, fried rice, pumpkin soup, baked cod stew, noodle soup, roasted mutton chops, vegetable noodles, pasta with fish & squid ink",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "cooked_chicken"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "diamond_knife": {
+    "title": "Diamond Knife",
+    "description": "Unlocks: diamond knife",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "diamond_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "wonderous_dishes": {
+    "title": "Wonderous Dishes",
+    "description": "Unlocks: roast chicken, stuffed pumpkin, honey glazed ham, shepherds pie",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "furnace"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "netherite_knife": {
+    "title": "Netherite Knife",
+    "description": "Unlocks: netherite knife",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "netherite_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "metal_armor": {
+    "title": "Metal Armor",
+    "description": "Unlocks: iron armor",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "iron_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "gilded_armor": {
+    "title": "Gilded Armor",
+    "description": "Unlocks: gold armor",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "golden_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "refined_gilded_armor": {
+    "title": "Refined Gilded Armor",
+    "description": "Unlocks: decorative armor trims",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "shaper_armor_trim_smithing_template"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "ocean_armor": {
+    "title": "Ocean Armor",
+    "description": "Unlocks: nautilus helmet, turtle helmet",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "turtle_helmet"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "hardened_armor": {
+    "title": "Hardened Armor",
+    "description": "Unlocks: diamond armor",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "diamond_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "magesmithing": {
+    "title": "Magesmithing",
+    "description": "Unlocks: spectrum armor items",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "enchanted_book"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "improved_ocean_armor": {
+    "title": "Improved Ocean Armor",
+    "description": "Unlocks: turtle chestplate",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "turtle_helmet"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "diving_gear": {
+    "title": "Diving Gear",
+    "description": "Unlocks: diving helmet, diving boots, backtank",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "turtle_helmet"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "lavaproofing": {
+    "title": "Lavaproofing",
+    "description": "Unlocks: netherite armor",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "netherite_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "lavaproof_diving": {
+    "title": "Lavaproof Diving",
+    "description": "Unlocks: netherite diving gear",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "netherite_helmet"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "mantle_gear": {
+    "title": "Mantle Gear",
+    "description": "Unlocks: bedrock armor",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "bedrock"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "fluid_works": {
+    "title": "Fluid Works",
+    "description": "Unlocks: copper pipe, copper valve handle, mechanical pump, fluid valve, spout, fluid tank",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "copper_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "gizmos": {
+    "title": "Gizmos",
+    "description": "Unlocks: turntable, cuckoo clock",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "iron_nugget"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "guided_gantry": {
+    "title": "Guided Gantry",
+    "description": "Unlocks: gantry carriage and shaft",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecart"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "improved_rotation": {
+    "title": "Improved Rotation",
+    "description": "Unlocks: clutch, gearshift, encased chain drive",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "powered_rail"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "mechanical_tools": {
+    "title": "Mechanical Tools",
+    "description": "Unlocks: mechanical mixer, drill, saw, piston, bearing, and display board",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "gold_nugget"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "smart_wiring": {
+    "title": "Smart Wiring",
+    "description": "Unlocks: redstone link, redstone contact, powered toggle latch, powered latch",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "comparator"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "improved_power": {
+    "title": "Improved Power",
+    "description": "Unlocks: large water wheel, windmill bearing",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "water_bucket"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "advanced_fluids": {
+    "title": "Advanced Fluids",
+    "description": "Unlocks: item drain, portable fluid interface",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "copper_block"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "advanced_mechanics": {
+    "title": "Advanced Mechanics",
+    "description": "Unlocks: precision mechanism, mechanical crafter, deployer, clockwork bearing, crushing wheel",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecart"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "advanced_rotation": {
+    "title": "Advanced Rotation",
+    "description": "Unlocks: adjustable chain gearshift, sequenced gearshift",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecart"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "basic_pullies": {
+    "title": "Basic Pullies",
+    "description": "Unlocks: rope pulley",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecart"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "fluid_pullies": {
+    "title": "Fluid Pullies",
+    "description": "Unlocks: hose pulley",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecart"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "lift_wizard": {
+    "title": "Lift Wizard",
+    "description": "Unlocks: elevator pulley",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecart"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "mechanical_heat": {
+    "title": "Mechanical Heat",
+    "description": "Unlocks: blaze burners",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "blaze_rod"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "power_loading": {
+    "title": "Power Loading",
+    "description": "Unlocks: andesite power loaders",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "andesite"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "smart_pipes": {
+    "title": "Smart Pipes",
+    "description": "Unlocks: smart fluid pipe",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "copper_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "steam_power": {
+    "title": "Steam Power",
+    "description": "Unlocks: steam engine",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "furnace"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "advanced_power_loading": {
+    "title": "Advanced Power Loading",
+    "description": "Unlocks: brass power loader",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecart"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "farm_decor": {
+    "title": "Farm Decor",
+    "description": "Unlocks: canvas signs, baskets, tatami blocks",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "oak_sign"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "botanist": {
+    "title": "Botanist",
+    "description": "Unlocks: botanist workbench",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "poppy"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "glassblower": {
+    "title": "Glassblower",
+    "description": "Unlocks: Glassblower workbench",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "glass"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "carpenter": {
+    "title": "Carpenter",
+    "description": "Unlocks: Carpenters table",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "spruce_log"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "weaver": {
+    "title": "Weaver",
+    "description": "Unlocks: Loom table",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "white_wool"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "mason": {
+    "title": "Mason",
+    "description": "Unlocks: Mason table",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "bricks"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "alchemist": {
+    "title": "Alchemist",
+    "description": "Unlocks: Alchemy bench",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "brewing_stand"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "tinkering": {
+    "title": "Tinkering",
+    "description": "Unlocks: Tinkering table",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecart"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "weaponsmith": {
+    "title": "Weaponsmith",
+    "description": "Specialize in tools of combat",
+    "extra_description": "unlocks: stone sword, shield",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "stone_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "adventuring_gear": {
+    "title": "Adventuring Gear",
+    "description": "Unlocks: rope, safety net, lead, compass",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecart"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "projectile_weaponry": {
+    "title": "Projectile Weaponry",
+    "description": "Unlocks: bow, arrows",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "bow"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "forged_swords": {
+    "title": "Forged Swords",
+    "description": "Unlocks: iron swords",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "iron_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "gilded_swords": {
+    "title": "Gilded Swords",
+    "description": "Unlocks: Golden swords",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "golden_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "forged_tools": {
+    "title": "Forged Tools",
+    "description": "Unlocks: iron shovel, axe, pickaxe, and hoe",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "iron_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "gilded_tools": {
+    "title": "Gilded Tools",
+    "description": "Unlocks: Golden shovel, axe, pickaxe, and hoe",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "golden_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "complex_shooting": {
+    "title": "Complex Shooting",
+    "description": "Unlocks: crossbow",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "crossbow"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "magic_arrows": {
+    "title": "Magic Arrows",
+    "description": "Unlocks: spectral and tipped arrows",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "spectral_arrow"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "hardened_swords": {
+    "title": "Hardened Swords",
+    "description": "Unlocks: diamond sword",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "diamond_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "hardened_tools": {
+    "title": "Hardened Tools",
+    "description": "Unlocks: Diamond shovel, axe, pickaxe, and hoe",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "diamond_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "lavaproof_swords": {
+    "title": "Lavaproof Swords",
+    "description": "Unlocks: Netherite Swords",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "netherite_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "lavaproof_tools": {
+    "title": "Lavaproof Tools",
+    "description": "Unlocks: Netherite shovel, axe, pickaxe, and hoe",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "netherite_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  },
+  "mantle_swords": {
+    "title": "Mantle Swords",
+    "description": "Unlocks: Bedrock Swords",
+    "cost": 1,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "bedrock"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "advancement grant @s only hilistiamod:trades_basicdrinks",
+          "lock_command": "advancement revoke @s only hilistiamod:trades_basicdrinks"
+        }
+      }
+    ]
+  }
+}

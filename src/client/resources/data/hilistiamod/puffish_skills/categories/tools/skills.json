@@ -1,0 +1,206 @@
+{
+	"1jkw10p8cveg81yx": {
+		"definition": "swordsmanship",
+		"x": 32,
+		"y": -64,
+		"root": true
+	},
+	"hii0qidx7uaemfa0": {
+		"definition": "forged_swords",
+		"x": 32,
+		"y": -160,
+		"root": false
+	},
+	"ztd4wkxv467y6tha": {
+		"definition": "gilded_swords",
+		"x": 96,
+		"y": -128,
+		"root": false
+	},
+	"viz6qwhc2d69q73y": {
+		"definition": "hardened_swords",
+		"x": 32,
+		"y": -256,
+		"root": false
+	},
+	"h2tq5h6xd78tb4t0": {
+		"definition": "mantle_swords",
+		"x": 32,
+		"y": -448,
+		"root": false
+	},
+	"fgfb1g87ha0ekj6f": {
+		"definition": "basic_defense",
+		"x": 0,
+		"y": 64,
+		"root": true
+	},
+	"b7wtcb2biaug38un": {
+		"definition": "forged_armor",
+		"x": 0,
+		"y": 160,
+		"root": false
+	},
+	"v8kbf7m6habzryf6": {
+		"definition": "gilded_armor",
+		"x": -64,
+		"y": 128,
+		"root": false
+	},
+	"g6u94wteituv5yry": {
+		"definition": "hardened_armor",
+		"x": 0,
+		"y": 256,
+		"root": false
+	},
+	"vi4czcwd656q7s4l": {
+		"definition": "mantle_armor",
+		"x": 0,
+		"y": 448,
+		"root": false
+	},
+	"vxnbj1b4oh9x9l3u": {
+		"definition": "diving_gear",
+		"x": 64,
+		"y": 224,
+		"root": false
+	},
+	"kjb6u7ma84z0cdfg": {
+		"definition": "aquatic_armor",
+		"x": 64,
+		"y": 128,
+		"root": false
+	},
+	"ueyfvymnb4yb948e": {
+		"definition": "lavaproof_armor",
+		"x": 0,
+		"y": 352,
+		"root": false
+	},
+	"xfenri74brraz9ra": {
+		"definition": "lavaproof_swords",
+		"x": 32,
+		"y": -352,
+		"root": false
+	},
+	"bumpn8onk8eaie9i": {
+		"definition": "lavaproof_diving",
+		"x": 128,
+		"y": 288,
+		"root": false
+	},
+	"w6tsnqgbmxat7pj4": {
+		"definition": "mage_armor",
+		"x": -64,
+		"y": 320,
+		"root": false
+	},
+	"s2vw5q3xshkx29um": {
+		"definition": "stone_tools",
+		"x": 64,
+		"y": 0,
+		"root": true
+	},
+	"mdwintya29y8xsie": {
+		"definition": "forged_tools",
+		"x": 160,
+		"y": 0,
+		"root": false
+	},
+	"jf8gaxdnxikqnto8": {
+		"definition": "lavaproof_tools",
+		"x": 352,
+		"y": 0,
+		"root": false
+	},
+	"m12acnhqi9m96uo8": {
+		"definition": "iron_accessories",
+		"x": 224,
+		"y": 64,
+		"root": false
+	},
+	"jbzk5lc89jr9g8jc": {
+		"definition": "all_in_one",
+		"x": 224,
+		"y": -64,
+		"root": false
+	},
+	"1xbmjrto03jnqbj1": {
+		"definition": "gilded_tools",
+		"x": 128,
+		"y": 64,
+		"root": false
+	},
+	"cv93nk4ijf8ofwn7": {
+		"definition": "backpacks",
+		"x": -64,
+		"y": 0,
+		"root": true
+	},
+	"y9907088uy5omytc": {
+		"definition": "backpack_upgrades",
+		"x": -128,
+		"y": -64,
+		"root": false
+	},
+	"x5ygh1j5105bq8ab": {
+		"definition": "forged_backpacks",
+		"x": -160,
+		"y": 0,
+		"root": false
+	},
+	"7a7aj5gg5u4ao5hp": {
+		"definition": "gilded_backpacks",
+		"x": -256,
+		"y": 0,
+		"root": false
+	},
+	"s6jx27w2ksac017m": {
+		"definition": "hardened_backpacks",
+		"x": -352,
+		"y": 0,
+		"root": false
+	},
+	"qzkywcjqpfegs31v": {
+		"definition": "lavaproof_backpacks",
+		"x": -448,
+		"y": 0,
+		"root": false
+	},
+	"v9dtgc632nuf2leb": {
+		"definition": "scout_gear",
+		"x": -128,
+		"y": 64,
+		"root": false
+	},
+	"cf55sbqg950cnik2": {
+		"definition": "archery",
+		"x": -32,
+		"y": -64,
+		"root": true
+	},
+	"qum409vi9ivwiwu3": {
+		"definition": "complex_projectiles",
+		"x": -32,
+		"y": -160,
+		"root": false
+	},
+	"n1rgyttsp41fxcoi": {
+		"definition": "bewitched_archery",
+		"x": -96,
+		"y": -128,
+		"root": false
+	},
+	"83i75tv0gbcife1j": {
+		"definition": "mechanical_launching",
+		"x": -32,
+		"y": -256,
+		"root": false
+	},
+	"mohf9n15xpvl2nq3": {
+		"definition": "hardened_tools",
+		"x": 256,
+		"y": 0,
+		"root": false
+	}
+}

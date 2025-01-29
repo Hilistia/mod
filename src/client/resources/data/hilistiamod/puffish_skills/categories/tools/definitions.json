@@ -1,0 +1,581 @@
+{
+	"all_in_one": {
+		"title": "All in One",
+		"description": "Unlocks: The Multitool",
+		"cost": 1,
+		"icon": {
+		  "type": "item",
+		  "data": {
+			"item": "spectrum:multitool"
+		  }
+		},
+		"frame": {
+		  "type": "advancement",
+		  "data": {
+			"frame": "task"
+		  }
+		}
+	  },
+	  "aquatic_armor": {
+		  "title": "Aquatic Armor",
+		  "description": "Unlocks: Nautilus Helet",
+		  "cost": 1,
+		  "icon": {
+			"type": "item",
+			"data": {
+			  "item": "hybrid-aquatic:turtle_chestplate"
+			}
+		  },
+		  "frame": {
+			"type": "advancement",
+			"data": {
+			  "frame": "task"
+			}
+		  }
+		},
+		"archery": {
+			"title": "Archery",
+			"description": "Unlocks: Bow & Arrow",
+			"cost": 1,
+			"icon": {
+			  "type": "item",
+			  "data": {
+				"item": "bow"
+			  }
+			},
+			"frame": {
+			  "type": "advancement",
+			  "data": {
+				"frame": "task"
+			  }
+			}
+		  },
+		  "backpack_upgrades": {
+			  "title": "Backpack Upgrades",
+			  "description": "Unlocks: Backpack Upgrades",
+			  "cost": 1,
+			  "icon": {
+				"type": "item",
+				"data": {
+				  "item": "sophisticatedbackpacks:upgrade_base"
+				}
+			  },
+			  "frame": {
+				"type": "advancement",
+				"data": {
+				  "frame": "task"
+				}
+			  }
+			},
+			"backpacks": {
+				"title": "Backpacks",
+				"description": "Unlocks: Basic Backpacks",
+				"cost": 1,
+				"icon": {
+				  "type": "item",
+				  "data": {
+					"item": "sophisticatedbackpacks:backpack"
+				}
+				},
+				"frame": {
+				  "type": "advancement",
+				  "data": {
+					"frame": "task"
+				  }
+				}
+			  },
+			"basic_defense": {
+				"title": "Basic Defense",
+				"description": "Unlocks: Leather Armor & Shield",
+				"cost": 1,
+				"icon": {
+				"type": "item",
+				"data": {
+					"item": "leather_chestplate"
+				}
+				},
+				"frame": {
+				"type": "advancement",
+				"data": {
+					"frame": "task"
+				}
+				}
+			},
+			"bewitched_archery": {
+				"title": "Bewitched Archery",
+				"description": "Unlocks: Tipped Arrows",
+				"cost": 1,
+				"icon": {
+				"type": "item",
+				"data": {
+					"item": "tipped_arrow"
+				}
+				},
+				"frame": {
+				"type": "advancement",
+				"data": {
+					"frame": "task"
+				}
+				}
+			},
+			"complex_projectiles": {
+				"title": "Complex Projectiles",
+				"description": "Unlocks: Crossbows",
+				"cost": 1,
+				"icon": {
+				"type": "item",
+				"data": {
+					"item": "crossbow"
+				}
+				},
+				"frame": {
+				"type": "advancement",
+				"data": {
+					"frame": "task"
+				}
+				}
+			},
+			"diving_gear": {
+				"title": "Diving Gear",
+				"description": "Unlocks: Diving Helmet & Boots",
+				"cost": 1,
+				"icon": {
+				"type": "item",
+				"data": {
+					"item": "create:copper_diving_helmet"
+				}
+				},
+				"frame": {
+				"type": "advancement",
+				"data": {
+					"frame": "task"
+				}
+				}
+			},
+			"forged_armor": {
+				"title": "Forged Armor",
+				"description": "Unlocks: Iron Armor",
+				"cost": 1,
+				"icon": {
+				"type": "item",
+				"data": {
+					"item": "iron_chestplate"
+				}
+				},
+				"frame": {
+				"type": "advancement",
+				"data": {
+					"frame": "task"
+				}
+				}
+			},
+			"forged_backpacks": {
+				"title": "Forged Backpacks",
+				"description": "Unlocks: Iron Backpacks",
+				"cost": 1,
+				"icon": {
+				"type": "item",
+				"data": {
+					"item": "sophisticatedbackpacks:iron_backpack"
+				}
+				},
+				"frame": {
+				"type": "advancement",
+				"data": {
+					"frame": "task"
+				}
+				}
+			},
+			"forged_swords": {
+				"title": "Forged Swords",
+				"description": "Unlocks: Iron Swords",
+				"cost": 1,
+				"icon": {
+				"type": "item",
+				"data": {
+					"item": "iron_sword"
+				}
+				},
+				"frame": {
+				"type": "advancement",
+				"data": {
+					"frame": "task"
+				}
+				}
+			},
+			"forged_tools": {
+				"title": "Forged Tools",
+				"description": "Unlocks: Iron Tools",
+				"cost": 1,
+				"icon": {
+				"type": "item",
+				"data": {
+					"item": "iron_pickaxe"
+				}
+				},
+				"frame": {
+				"type": "advancement",
+				"data": {
+					"frame": "task"
+				}
+				}
+			},
+			"gilded_armor": {
+				"title": "Gilded Armor",
+				"description": "Unlocks: Gold Armor",
+				"cost": 1,
+				"icon": {
+				"type": "item",
+				"data": {
+					"item": "gold_chestplate"
+				}
+				},
+				"frame": {
+				"type": "advancement",
+				"data": {
+					"frame": "task"
+				}
+				}
+			},
+			"gilded_backpacks": {
+				"title": "Gilded Backpacks",
+				"description": "Unlocks: Gold Backpack",
+				"cost": 1,
+				"icon": {
+				"type": "item",
+				"data": {
+					"item": "sophisticatedbackpacks:gold_backpack"
+				}
+				},
+				"frame": {
+				"type": "advancement",
+				"data": {
+					"frame": "task"
+				}
+				}
+			},
+			"gilded_swords": {
+				"title": "Gilded Sword",
+				"description": "Unlocks: Gold Sword",
+				"cost": 1,
+				"icon": {
+				"type": "item",
+				"data": {
+					"item": "gold_sword"
+				}
+				},
+				"frame": {
+				"type": "advancement",
+				"data": {
+					"frame": "task"
+				}
+				}
+			},
+			"gilded_tools": {
+				"title": "Gilded Tools",
+				"description": "Unlocks: Gold Tools",
+				"cost": 1,
+				"icon": {
+				"type": "item",
+				"data": {
+					"item": "gold_pickaxe"
+				}
+				},
+				"frame": {
+				"type": "advancement",
+				"data": {
+					"frame": "task"
+				}
+				}
+			},
+			"hardened_armor": {
+				"title": "Hardened Armor",
+				"description": "Unlocks: Diamond Armor",
+				"cost": 1,
+				"icon": {
+				"type": "item",
+				"data": {
+					"item": "diamond_chestplate"
+				}
+				},
+				"frame": {
+				"type": "advancement",
+				"data": {
+					"frame": "task"
+				}
+				}
+			},
+			"hardened_backpacks": {
+				"title": "Hardened Backpacks",
+				"description": "Unlocks: Diamond Backpacks",
+				"cost": 1,
+				"icon": {
+				"type": "item",
+				"data": {
+					"item": "sophisticatedbackpacks:diamond_backpack"
+				}
+				},
+				"frame": {
+				"type": "advancement",
+				"data": {
+					"frame": "task"
+				}
+				}
+			},
+			"hardened_swords": {
+				"title": "Hardened Swords",
+				"description": "Unlocks: Diamond Swords",
+				"cost": 1,
+				"icon": {
+				"type": "item",
+				"data": {
+					"item": "diamond_sword"
+				}
+				},
+				"frame": {
+				"type": "advancement",
+				"data": {
+					"frame": "task"
+				}
+				}
+			},
+			"hardened_tools": {
+				"title": "Hardened Tools",
+				"description": "Unlocks: Diamond Tools",
+				"cost": 1,
+				"icon": {
+				"type": "item",
+				"data": {
+					"item": "diamond_pickaxe"
+				}
+				},
+				"frame": {
+				"type": "advancement",
+				"data": {
+					"frame": "task"
+				}
+				}
+			},
+			"iron_accessories": {
+				"title": "Iron Accessories",
+				"description": "Unlocks: Buckets, Flint & Steel and Shears",
+				"cost": 1,
+				"icon": {
+				"type": "item",
+				"data": {
+					"item": "shears"
+				}
+				},
+				"frame": {
+				"type": "advancement",
+				"data": {
+					"frame": "task"
+				}
+				}
+			},
+			"lavaproof_armor": {
+				"title": "lavaproof Armor",
+				"description": "Unlocks: Netherite Armor",
+				"cost": 1,
+				"icon": {
+				"type": "item",
+				"data": {
+					"item": "netherite_chestplate"
+				}
+				},
+				"frame": {
+				"type": "advancement",
+				"data": {
+					"frame": "task"
+				}
+				}
+			},
+			"lavaproof_backpacks": {
+				"title": "Lavaproof Backpacks",
+				"description": "Unlocks: Netherite Backpacks",
+				"cost": 1,
+				"icon": {
+				"type": "item",
+				"data": {
+					"item": "sophisticatedbackpacks:netherite_backpack"
+				}
+				},
+				"frame": {
+				"type": "advancement",
+				"data": {
+					"frame": "task"
+				}
+				}
+			},
+			"lavaproof_diving": {
+				"title": "Lavaproof Diving",
+				"description": "Unlocks: Netherite Diving Helmet & Boots",
+				"cost": 1,
+				"icon": {
+				"type": "item",
+				"required_skills": 2,
+				"data": {
+					"item": "create:netherite_diving_helmet"
+				}
+				},
+				"frame": {
+				"type": "advancement",
+				"data": {
+					"frame": "task"
+				}
+				}
+			},
+			"lavaproof_swords": {
+				"title": "Lavaproof Swords",
+				"description": "Unlocks: Netherite Swords",
+				"cost": 1,
+				"icon": {
+				"type": "item",
+				"data": {
+					"item": "netherite_sword"
+				}
+				},
+				"frame": {
+				"type": "advancement",
+				"data": {
+					"frame": "task"
+				}
+				}
+			},
+			"lavaproof_tools": {
+				"title": "Lavaproof Tools",
+				"description": "Unlocks: Netherite Tools",
+				"cost": 1,
+				"icon": {
+				"type": "item",
+				"data": {
+					"item": "netherite_pickaxe"
+				}
+				},
+				"frame": {
+				"type": "advancement",
+				"data": {
+					"frame": "task"
+				}
+				}
+			},
+			"mage_armor": {
+				"title": "Mage Armor",
+				"description": "Unlocks: Fetchling Helmet, Ferocious Chestplate, Sylph Leggins & Oread Boots",
+				"cost": 1,
+				"icon": {
+				"type": "item",
+				"data": {
+					"item": "spectrum:ferocious_chestplate"
+				}
+				},
+				"frame": {
+				"type": "advancement",
+				"data": {
+					"frame": "task"
+				}
+				}
+			},
+			"mantle_armor": {
+				"title": "Mantle Armor",
+				"description": "Unlocks: Bedrock Armor",
+				"cost": 1,
+				"icon": {
+				"type": "item",
+				"data": {
+					"item": "spectrum:bedrock_chestplate"
+				}
+				},
+				"frame": {
+				"type": "advancement",
+				"data": {
+					"frame": "task"
+				}
+				}
+			},
+			"mantle_swords": {
+				"title": "Mantle Swords",
+				"description": "Unlocks: Bedrock Swords",
+				"cost": 1,
+				"icon": {
+				"type": "item",
+				"data": {
+					"item": "spectrum:bedrock_sword"
+				}
+				},
+				"frame": {
+				"type": "advancement",
+				"data": {
+					"frame": "task"
+				}
+				}
+			},
+			"mechanical_launching": {
+				"title": "Mechanical Launching",
+				"description": "Unlocks: Potato Cannon",
+				"cost": 1,
+				"icon": {
+				"type": "item",
+				"data": {
+					"item": "create:potato_cannon"
+				}
+				},
+				"frame": {
+				"type": "advancement",
+				"data": {
+					"frame": "task"
+				}
+				}
+			},
+			"scout_gear": {
+				"title": "Scout Gear",
+				"description": "Unlocks: Rope, Lead & Compass",
+				"cost": 1,
+				"icon": {
+				"type": "item",
+				"data": {
+					"item": "bow"
+				}
+				},
+				"frame": {
+				"type": "advancement",
+				"data": {
+					"frame": "task"
+				}
+				}
+			},
+			"stone_tools": {
+				"title": "Stone Tools",
+				"description": "Unlocks: Stone Tools",
+				"cost": 1,
+				"icon": {
+				"type": "item",
+				"data": {
+					"item": "stone_pickaxe"
+				}
+				},
+				"frame": {
+				"type": "advancement",
+				"data": {
+					"frame": "task"
+				}
+				}
+			},
+			"swordsmanship": {
+				"title": "Swordmanship",
+				"description": "Unlocks: Stone Swords",
+				"cost": 1,
+				"icon": {
+				"type": "item",
+				"data": {
+					"item": "stone_sword"
+				}
+				},
+				"frame": {
+				"type": "advancement",
+				"data": {
+					"frame": "task"
+				}
+				}
+			}
+	}

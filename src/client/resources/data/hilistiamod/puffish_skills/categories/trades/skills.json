@@ -1,0 +1,422 @@
+{
+	"363j2voamjtecjlk": {
+		"definition": "armorsmith",
+		"x": 32,
+		"y": 0,
+		"root": true
+	},
+	"3wtdcgj1d1ev31nx": {
+		"definition": "artisan",
+		"x": 480,
+		"y": 0,
+		"root": true
+	},
+	"sqgex3bf3bquak3p": {
+		"definition": "tinker",
+		"x": 224,
+		"y": 0,
+		"root": true
+	},
+	"23bqomesomw11zki": {
+		"definition": "chef",
+		"x": -416,
+		"y": 0,
+		"root": true
+	},
+	"ythfmym4a4wqd4kj": {
+		"definition": "basic_meals",
+		"x": -480,
+		"y": -32,
+		"root": false
+	},
+	"fgo02oqz9wzawmp2": {
+		"definition": "basic_drinks",
+		"x": -352,
+		"y": -64,
+		"root": false
+	},
+	"yvip9stzkakixuob": {
+		"definition": "pastry_chef",
+		"x": -448,
+		"y": -64,
+		"root": false
+	},
+	"hn9ie3ievkzsoph6": {
+		"definition": "dessert_baker",
+		"x": -320,
+		"y": -64,
+		"root": false
+	},
+	"il397kt5oun7mcwr": {
+		"definition": "chocolatier",
+		"x": -384,
+		"y": -64,
+		"root": false
+	},
+	"q7pstsi8bsnprgb8": {
+		"definition": "improved_kitchen",
+		"x": -416,
+		"y": -96,
+		"root": false
+	},
+	"wu50sav7ubtnsdob": {
+		"definition": "improved_dishes",
+		"x": -480,
+		"y": -96,
+		"root": false
+	},
+	"rnp0nh6zgzk23co5": {
+		"definition": "pet_food",
+		"x": -512,
+		"y": -32,
+		"root": false
+	},
+	"pnywuxn5yfqrbrbv": {
+		"definition": "improved_pastries",
+		"x": -448,
+		"y": -96,
+		"root": false
+	},
+	"q9qxp73fi0ea5xhw": {
+		"definition": "marvelous_dishes",
+		"x": -480,
+		"y": -160,
+		"root": false
+	},
+	"xm7kz3ndh0mfxjxv": {
+		"definition": "diamond_knife",
+		"x": -416,
+		"y": -128,
+		"root": false
+	},
+	"3flb9nj9f4tjex2y": {
+		"definition": "wonderous_dishes",
+		"x": -480,
+		"y": -192,
+		"root": false
+	},
+	"lbwychyvt3hp1osg": {
+		"definition": "netherite_knife",
+		"x": -416,
+		"y": -160,
+		"root": false
+	},
+	"1s789p2xt3wousx3": {
+		"definition": "metal_armor",
+		"x": 32,
+		"y": -64,
+		"root": false
+	},
+	"16l9knlk84b7qdu4": {
+		"definition": "gilded_armor",
+		"x": -32,
+		"y": -32,
+		"root": false
+	},
+	"rgexx3k2qx8mimpj": {
+		"definition": "refined_gilded_armor",
+		"x": -32,
+		"y": -96,
+		"root": false
+	},
+	"tawf0n5cqzhjn3al": {
+		"definition": "ocean_armor",
+		"x": 0,
+		"y": -64,
+		"root": false
+	},
+	"nsur1degkwpe5rvo": {
+		"definition": "hardened_armor",
+		"x": 64,
+		"y": -128,
+		"root": false
+	},
+	"qpcog8rj405z7kte": {
+		"definition": "magesmithing",
+		"x": 32,
+		"y": -128,
+		"root": false
+	},
+	"lzrdix0hmehrlykr": {
+		"definition": "improved_ocean_armor",
+		"x": 0,
+		"y": -128,
+		"root": false
+	},
+	"7sbmsk8v40iuzsqj": {
+		"definition": "diving_gear",
+		"x": 96,
+		"y": -64,
+		"root": false
+	},
+	"pspo0uaa31ohkxkr": {
+		"definition": "lavaproofing",
+		"x": 64,
+		"y": -192,
+		"root": false
+	},
+	"nd2c0l47srty8wzd": {
+		"definition": "lavaproof_diving",
+		"x": 96,
+		"y": -192,
+		"root": false
+	},
+	"iafa53kkqm0g6p6i": {
+		"definition": "mantle_gear",
+		"x": 32,
+		"y": -224,
+		"root": false
+	},
+	"qwwifucbx1xjqaup": {
+		"definition": "fluid_works",
+		"x": 224,
+		"y": -64,
+		"root": false
+	},
+	"n7xvmj6dt9l5pu93": {
+		"definition": "gizmos",
+		"x": 320,
+		"y": -128,
+		"root": false
+	},
+	"zvqhhglpnj7izjni": {
+		"definition": "guided_gantry",
+		"x": 256,
+		"y": -64,
+		"root": false
+	},
+	"qbs285srsxbqfqub": {
+		"definition": "improved_rotation",
+		"x": 192,
+		"y": -64,
+		"root": false
+	},
+	"l0fofejo05z2pbes": {
+		"definition": "mechanical_tools",
+		"x": 288,
+		"y": -64,
+		"root": false
+	},
+	"ckuj9uhul1bk0xd2": {
+		"definition": "smart_wiring",
+		"x": 320,
+		"y": -64,
+		"root": false
+	},
+	"sh2zp4olajkh1sml": {
+		"definition": "camp_cooking",
+		"x": -320,
+		"y": -32,
+		"root": false
+	},
+	"yy5dn7ix3p5p957c": {
+		"definition": "improved_power",
+		"x": 160,
+		"y": -64,
+		"root": false
+	},
+	"jns3yuc29bs7slrf": {
+		"definition": "advanced_fluids",
+		"x": 224,
+		"y": -128,
+		"root": false
+	},
+	"pnmd7jhadpc6j63r": {
+		"definition": "advanced_mechanics",
+		"x": 288,
+		"y": -128,
+		"root": false
+	},
+	"1q36692mn04egk4g": {
+		"definition": "advanced_rotation",
+		"x": 192,
+		"y": -128,
+		"root": false
+	},
+	"qfxufiv4a6ukugru": {
+		"definition": "basic_pullies",
+		"x": 256,
+		"y": -128,
+		"root": false
+	},
+	"2pi5i7tv3d210lfk": {
+		"definition": "fluid_pullies",
+		"x": 224,
+		"y": -192,
+		"root": false
+	},
+	"zmgt3y8tauxv7yo3": {
+		"definition": "lift_wizard",
+		"x": 256,
+		"y": -192,
+		"root": false
+	},
+	"0xgextkokkxt1m8w": {
+		"definition": "mechanical_heat",
+		"x": 160,
+		"y": -128,
+		"root": false
+	},
+	"ftbwjx1xran5tjla": {
+		"definition": "power_loading",
+		"x": 352,
+		"y": -64,
+		"root": false
+	},
+	"a13xgeeazipqwpf2": {
+		"definition": "smart_pipes",
+		"x": 192,
+		"y": -192,
+		"root": false
+	},
+	"h1pyb8r6sqlim0dt": {
+		"definition": "steam_power",
+		"x": 160,
+		"y": -192,
+		"root": false
+	},
+	"fdrg8wkxc6j149jk": {
+		"definition": "advanced_power_loading",
+		"x": 352,
+		"y": -192,
+		"root": false
+	},
+	"q8sxu9sauo6zvgem": {
+		"definition": "farm_decor",
+		"x": 544,
+		"y": -64,
+		"root": false
+	},
+	"kkk3e4nkiph1bqr4": {
+		"definition": "botanist",
+		"x": 416,
+		"y": -128,
+		"root": false
+	},
+	"eqq7ge72po5yd9og": {
+		"definition": "glassblower",
+		"x": 544,
+		"y": -96,
+		"root": false
+	},
+	"twpzlzcyw2wouw4r": {
+		"definition": "carpenter",
+		"x": 416,
+		"y": -64,
+		"root": false
+	},
+	"9uc7mlv3xqvi0sqg": {
+		"definition": "weaver",
+		"x": 448,
+		"y": -160,
+		"root": false
+	},
+	"5qghflqmh4oseyb8": {
+		"definition": "mason",
+		"x": 416,
+		"y": -96,
+		"root": false
+	},
+	"4pm5h1s5vs8uvv5v": {
+		"definition": "alchemist",
+		"x": 544,
+		"y": -128,
+		"root": false
+	},
+	"bbaxb3ckhsn79gd0": {
+		"definition": "tinkering",
+		"x": 512,
+		"y": -160,
+		"root": false
+	},
+	"u859y4vzscl5obcn": {
+		"definition": "toolsmith",
+		"x": -160,
+		"y": 0,
+		"root": false
+	},
+	"o1lrqeozh0ifpbb2": {
+		"definition": "weaponsmith",
+		"x": -224,
+		"y": -32,
+		"root": false
+	},
+	"868075nqpl06b5dh": {
+		"definition": "adventuring_gear",
+		"x": -96,
+		"y": -32,
+		"root": false
+	},
+	"8l5yqbhv4vq5sn2d": {
+		"definition": "projectile_weaponry",
+		"x": -192,
+		"y": -64,
+		"root": false
+	},
+	"u3xly3hfa6iuvltg": {
+		"definition": "forged_swords",
+		"x": -224,
+		"y": -64,
+		"root": false
+	},
+	"ht4nv0x4y46fmamr": {
+		"definition": "gilded_swords",
+		"x": -256,
+		"y": -64,
+		"root": false
+	},
+	"g1s0hermompeutvk": {
+		"definition": "forged_tools",
+		"x": -160,
+		"y": -64,
+		"root": false
+	},
+	"y5rdijsb27rxea6w": {
+		"definition": "gilded_tools",
+		"x": -128,
+		"y": -64,
+		"root": false
+	},
+	"h7p4w1ate9xa1kx9": {
+		"definition": "complex_shooting",
+		"x": -192,
+		"y": -128,
+		"root": false
+	},
+	"22wykx4m2o96h08v": {
+		"definition": "magic_arrows",
+		"x": -192,
+		"y": -192,
+		"root": false
+	},
+	"xbz9nisn4mjbsshk": {
+		"definition": "hardened_swords",
+		"x": -224,
+		"y": -128,
+		"root": false
+	},
+	"5u8bhaib4bzmxxmb": {
+		"definition": "hardened_tools",
+		"x": -160,
+		"y": -128,
+		"root": false
+	},
+	"46ge5fvppkr57aff": {
+		"definition": "lavaproof_swords",
+		"x": -224,
+		"y": -192,
+		"root": false
+	},
+	"vcrxlm30gf8euazm": {
+		"definition": "lavaproof_tools",
+		"x": -160,
+		"y": -192,
+		"root": false
+	},
+	"rogb8uqbfy20khvq": {
+		"definition": "mantle_swords",
+		"x": -224,
+		"y": -224,
+		"root": false
+	}
+}
